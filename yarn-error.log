@@ -1,0 +1,45 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\islem\AppData\Local\node\corepack\yarn\1.22.19\bin\yarn.js add express mongoose dotenv helmet morgan nodemon
+
+PATH: 
+  %sSYSTEMROOT%\System32\WindowsPowerShell\v.1.0;C:\mysql-8.0.29-winx64-debug-test\mysql-8.0.29-winx64\bin;C:\Windows\System32;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\nodejs\;C:\xampp\php;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\islem\scoop\shims;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\islem\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\islem\AppData\Roaming\npm;C:\spring\spring-boot-cli-2.7.4-bin% SPRING_HOME %\bin;C:\Users\islem\composer;C:\Program Files\JetBrains\PhpStorm 2022.2.2\bin;C:\Users\islem\AppData\Roaming\Composer\vendor\bin;C:\Users\islem\AppData\Local\Microsoft\WindowsApps
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/mongodb/-/mongodb-4.13.0.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\islem\AppData\Local\node\corepack\yarn\1.22.19\lib\cli.js:141517:19)
+      at Object.onceWrapper (node:events:641:28)
+      at ClientRequest.emit (node:events:527:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:771:9)
+      at Object.onceWrapper (node:events:641:28)
+      at TLSSocket.emit (node:events:539:35)
+      at TLSSocket.Socket._onTimeout (node:net:516:8)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)
+
+npm manifest: 
+  {
+    "name": "node-rest-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
